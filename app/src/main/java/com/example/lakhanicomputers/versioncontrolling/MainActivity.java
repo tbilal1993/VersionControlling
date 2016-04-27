@@ -43,6 +43,11 @@ public class MainActivity extends ActionBarActivity {
         Toast.makeText(getApplicationContext(),(userid + name),Toast.LENGTH_SHORT).show();
 
 
+        int userid2 =  70707;
+        String name2 = "Bilal";
+
+        Toast.makeText(getApplicationContext(),userid2 + name2,Toast.LENGTH_SHORT).show();
+
     }
 
 
